@@ -26,6 +26,8 @@ For projects where performance is critical, I recommend using `React Three Fiber
 
 ## Available Scripts
 
+Don't forget to run `npm install` first!
+
 In the project directory, you can run:
 
 ### `npm start`
