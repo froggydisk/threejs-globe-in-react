@@ -2,13 +2,16 @@
   "name": "threejs-globe-in-react",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://froggydisk.github.io/globe",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "gsap": "^3.12.5",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-scripts": "5.0.1",
+    "three": "^0.164.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -34,5 +37,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@babel/plugin-transform-private-property-in-object": "^7.24.5"
   }
 }
